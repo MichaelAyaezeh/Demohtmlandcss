@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+nav > img{
+    height: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+nav  div ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+nav  div ul li {
+    justify-content: space-around;
+    padding-right: 30px;
+}
+nav ul li:last-child a{
+    background-color: green;
+    border:2px solid black;
+    padding: 6px; 
+    border-radius: 5px;
+}
+.header{
+    background-color: black;
+    height: 60vh;
+    padding:250px  3rem 200px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    height: 400px;
+}
+.header h1{
+    width: 250px;
+    color: white;
+    text-transform: uppercase;
+}
+.header p{
+    color: white;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.header a{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: green;
+    opacity: 0.9;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.header a{
+    text-transform: uppercase;
+    color: aqua;
+}
+.second div{
+    height:100px;  
+}
+.second div img{
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+}
+#comment{
+    background-color: lightblue;
+}
+#comment h2{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.commentgrid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 150px 150px;
+    gap: 1rem;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.commentgrid > div{
+    background-color: #f8f8f8;
+    border-radius: .5rem;
+    padding: 10px;
+}
+.commentgrid>div>div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#comment img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.footerdivmenu{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    
+}
+.footerdiv{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.footer ul{
+    padding-bottom:20px;
+}
+.footerdiv ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.footerdiv ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+} 
+.hrsection{
+    padding: 20px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+.hrsection div i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+.iconsside{
+    text-align: center;
+
+}
+.footicons i{
+   padding-top: 7px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+@media screen and (min-width:375px) and (max-width:667px){
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 900px;
+    }
+    nav > img{
+        height: 100%;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+    nav  div ul li a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+    }
+    nav  div ul li {
+        justify-content: space-around;
+        padding-right: 30px;
+    }
+    nav ul li:last-child a{
+        background-color: green;
+        border:2px solid black;
+        padding: 6px; 
+        border-radius: 5px;
+    }
+    .header{
+        background-color: black;
+        height: 60vh;
+        padding:250px  3rem 200px 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+    }
+    .he
+    .header h1{
+        width: 250px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .header p{
+        color: white;
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .header a{
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: green;
+        opacity: 0.9;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .second div{
+        height:100px;  
+    }
+    .second div img{
+        height: 100%;
+        /* border: 2px solid black; */
+        border-radius: 30px;
+    }
+    #comment{
+        background-color: lightblue;
+        width: 900px;
+    }
+    #comment h2{
+        text-align: center;
+        background-color: cadetblue;
+        color: white;
+        text-transform: uppercase;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        width: 900px;
+    }
+    .commentgriid{
+        display: grid;
+        gap: 1rem;
+        width: fit-content;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .commentgrid > div{
+        background-color: #f8f8f8;
+        border-radius: .5rem;
+        padding: 10px;
+    }
+    .commentgrid>div>div{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+    #comment img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    .footerdivmenu{
+        background-color: rgb(66, 65, 65);
+        color: white;
+        
+    }
+    .footerdiv{
+        background-color: rgb(66, 65, 65);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 900px;
+    .footer ul{
+        padding-bottom:20px;
+    }
+    .footerdiv ul li{
+        list-style: none;
+        text-decoration: none;
+    }
+    .footerdiv ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    } 
+    .hrsection{
+        padding: 20px;
+        background-color: rgb(229, 216, 216);
+        color: white;
+        width: 900px;
+        height: 400px;
+    }
+    .hrsection div i{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+
+    }
+    .iconsside{
+        text-align: center;
+    
+    }
+    .footicons i{
+       padding-top: 7px;
+       margin-top: 8px;
+       margin-bottom: 8px;
+    }
+    
+}
+@media screen and (min-width:667px) and (max-width:860px){
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 15vh;
+        width: 1400px;
+    .whole{
+       height: 90vh ;
+    }
+    nav > img{
+        height: 100%;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+    nav  div ul li a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+    }
+    nav  div ul li {
+        justify-content: space-around;
+        padding-right: 30px;
+    }
+    nav ul li:last-child a{
+        background-color: green;
+        border:2px solid black;
+        padding: 6px; 
+        border-radius: 5px;
+    }
+    .header{
+        background-color: black;
+        height: 60vh;
+        padding:250px  3rem 200px 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1400px;
+    }
+    .header h1{
+        width: 250px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .header p{
+        color: white;
+        width: 400px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .header a{
+        border: 2px solid black;
+        border-radius: 10px;
+        background-color: green;
+        opacity: 0.9;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .second div{
+        height:100px;  
+    }
+    .second div img{
+        height: 100%;
+        /* border: 2px solid black; */
+        border-radius: 30px;
+    }
+    #comment{
+        background-color: lightblue;
+        width: 1400px;
+    }
+    #comment h2{
+        text-align: center;
+        background-color: cadetblue;
+        color: white;
+        text-transform: uppercase;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        width: 900px;
+    }
+    .commentgrid{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 150px 150px;
+        gap: 1rem;
+        width: fit-content;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .commentgrid > div{
+        background-color: #f8f8f8;
+        border-radius: .5rem;
+        padding: 10px;
+    }
+    .commentgrid>div>div{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+    #comment img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    .footerdivmenu{
+        background-color: rgb(66, 65, 65);
+        color: white;
+        
+    }
+    .footerdiv{
+        background-color: rgb(66, 65, 65);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 1400px;
+    .footer ul{
+        padding-bottom:20px;
+    }
+    .footerdiv ul li{
+        list-style: none;
+        text-decoration: none;
+    }
+    .footerdiv ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    } 
+    .hrsection{
+        padding: 20px;
+        background-color: rgb(229, 216, 216);
+        color: white;
+        width: 1400px;
+        height: 400px;
+    }
+    .hrsection div i{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+
+    }
+    .iconsside{
+        text-align: center;
+    }
+    .footicons i{
+       padding-top: 7px;
+       margin-top: 8px;
+       margin-bottom: 8px;
+    }
+    
+    @media screen and (min-width:860px) and (max-width:1100px){
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .whole{
+            height: 90vh;
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 15vh;
+            width: 1400px;
+        }
+        nav > img{
+            height: 100%;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+        }
+        nav  div ul li a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+        }
+        nav  div ul li {
+            justify-content: space-around;
+            padding-right: 30px;
+        }
+        nav ul li:last-child a{
+            background-color: green;
+            border:2px solid black;
+            padding: 6px; 
+            border-radius: 5px;
+        }
+        .header{
+            background-color: black;
+            height: 60vh;
+            padding:250px  3rem 200px 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1400px;
+        }
+        .header h1{
+            width: 250px;
+            color: white;
+            text-transform: uppercase;
+        }
+        .header p{
+            color: white;
+            width: 400px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        .header a{
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: green;
+            opacity: 0.9;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .second div{
+            height:100px;  
+        }
+        .second div img{
+            height: 100%;
+            /* border: 2px solid black; */
+            border-radius: 30px;
+        }
+        #comment{
+            background-color: lightblue;
+            width: 1400px;
+        }
+        #comment h2{
+            text-align: center;
+            background-color: cadetblue;
+            color: white;
+            text-transform: uppercase;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            width: 900px;
+        }
+        .commentgrid{
+            display: grid;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 150px 150px;
+            gap: 1rem;
+            width: fit-content;
+            margin: auto;
+            padding-bottom: 30px;
+        }
+        .commentgrid > div{
+            background-color: #f8f8f8;
+            border-radius: .5rem;
+            padding: 10px;
+        }
+        .commentgrid>div>div{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+        }
+        #comment img{
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+        .footerdivmenu{
+            background-color: rgb(66, 65, 65);
+            color: white;
+            
+        }
+        .footerdiv{
+            background-color: rgb(66, 65, 65);
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            width: 1400px;
+        .footer ul{
+            padding-bottom:20px;
+        }
+        .footerdiv ul li{
+            list-style: none;
+            text-decoration: none;
+        }
+        .footerdiv ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: medium;
+        } 
+        .hrsection{
+            padding: 20px;
+            background-color: rgb(229, 216, 216);
+            color: white;
+            width: 1400px;
+            height: 400px;
+        }
+        .hrsection div i{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            color: black;
+            font-size: 1rem;
+    
+        }
+        .iconsside{
+            text-align: center;
+        }
+        .footicons i{
+           padding-top: 7px;
+           margin-top: 8px;
+           margin-bottom: 8px;
+        }
+        
+    }
+} 

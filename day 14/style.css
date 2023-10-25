@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+nav > img{
+    height: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+nav  div ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+nav  div ul li a:hover{
+    color: aqua;
+}
+nav  div ul li {
+    justify-content: space-around;
+    padding-right: 30px;
+    font-size: 20px;
+}
+nav ul li:last-child a{
+    background-color: green;
+    border:2px solid black;
+    padding: 6px; 
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    text-transform: uppercase;
+    color: aquamarine;
+}
+
+.header{
+    background-color: black;
+    height: 85vh;
+    padding: 250px  3rem 250px 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > div{
+    width: 50%;
+    overflow: hidden;
+}
+.header > div >img{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+.header h1{
+    width: 80%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.header p{
+    color: white;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.header a{
+    border: 2px solid black;
+    border-radius: 10px ;
+    background-color: green;
+    opacity: 0.9;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header a:hover{
+    color: aqua;
+    text-transform:uppercase;
+}
+.second div{
+    height:100px;  
+}
+.second div img{
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+}
+#comment{
+    background-color: lightblue;
+    overflow: hidden;
+}
+#comment h2{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.commentgrid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 1rem;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.commentgrid > div{
+    background-color: #f8f8f8;
+    border-radius: .5rem;
+    padding: 10px;
+}
+.commentgrid>div>div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+#comment img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.subscribe{
+    font-size: 20px;
+}
+#input{
+ margin-top: 10px;
+  font-size: 18px;  
+}
+.footerdivmenu{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    
+}
+.footerdiv{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer ul{
+    padding-bottom:15px;
+}
+.footerdiv ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.footerdiv ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    height: 4vh;
+
+} 
+.footerdiv ul li a:hover{
+    color: aqua;
+}
+.hrsection{
+    padding: 20px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+.hrsection div i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+}
+.iconsside{
+    text-align: center;
+
+}
+.footicons i{
+   padding-top: 7px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
